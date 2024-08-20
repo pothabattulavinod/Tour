@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Tourist Places in India</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&family=Lora:wght@700&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f8ff; /* Light blue background */
+            border: 5px solid #007BFF; /* Blue border */
+            box-sizing: border-box;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            flex-grow: 1;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd; /* Light border */
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #007BFF; /* Blue underline */
+            padding-bottom: 10px;
+            font-family: 'Poppins', sans-serif; /* Font for the headline */
+        }
+
+        h2 {
+            color: #007BFF; /* Blue color for headings */
+            font-family: 'Lora', serif; /* Font for subheadings */
+            font-size: 2em;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .place {
+            background: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
+
+        .place img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #007BFF; /* Blue border for images */
+        }
+
+        .place h3 {
+            margin-top: 0;
+            color: #444;
+            font-family: 'Lora', serif;
+        }
+
+        .place p {
+            font-family: 'Roboto', sans-serif;
+            color: #555;
+            line-height: 1.7;
+            font-size: 1.1em;
+        }
+
+        .place ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        .place ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 30px;
+            color: #333; /* Darker text color for list items */
+        }
+
+        .place ul li::before {
+            content: "\1F4CD"; /* Location pin icon */
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.2em;
+            color: #007BFF; /* Blue color for icons */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #333;
+            margin-top: 20px;
+            background: #f0f8ff; /* Light blue background for footer */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+                border-bottom: 2px solid #007BFF; /* Adjust underline for smaller screens */
+                padding-bottom: 5px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .place p {
+                font-size: 1em;
+            }
+
+            .place ul li {
+                padding-left: 25px;
+            }
+
+            .place ul li::before {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+                border-bottom: 1px solid #007BFF; /* Further adjust underline */
+                padding-bottom: 3px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .place p {
+                font-size: 0.9em;
+            }
+
+            .place ul li {
+                padding-left: 20px;
+            }
+
+            .place ul li::before {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top Tourist Places</h1>
+
+        <!-- Manali Section -->
+        <div class="place">
+            <h2>Manali</h2>
+            <img src="https://www.honeymoonpackagesmanali.org/uploads/8/2/6/1/8261259/p179.png" alt="Manali">
+            <p>Manali, a popular hill station in Himachal Pradesh, India, is renowned for its stunning landscapes, pleasant weather, and vibrant charm.</p>
+            <h3>Best Seasons to Visit:</h3>
+            <ul>
+                <li><strong>Summer (March to June):</strong> Ideal for sightseeing and outdoor activities with temperatures ranging from 10°C to 25°C.</li>
+                <li><strong>Winter (October to February):</strong> Perfect for snow lovers with opportunities for skiing and other winter sports.</li>
+            </ul>
+            <h3>Main Attractions:</h3>
+            <ul>
+                <li><strong>Solang Valley:</strong> Known for adventure sports like paragliding and skiing, offering stunning views.</li>
+                <li><strong>Hidimba Devi Temple:</strong> A unique temple surrounded by cedar forests, dedicated to Hidimba Devi.</li>
+                <li><strong>Manikaran Gurudwara:</strong> A Sikh pilgrimage site known for its hot springs and scenic location.</li>
+                <li><strong>Jogini Falls:</strong> A serene waterfall, perfect for trekking.</li>
+            </ul>
+        </div>
+
+        <!-- Goa Section -->
+        <div class="place">
+            <h2>Goa</h2>
+            <img src="https://media.istockphoto.com/id/469852152/photo/arambol-beach-goa.jpg?s=612x612&w=0&k=20&c=PK7nClOmOvKi4JxDumL5-YI8lkX53b9vHF75nvExDX4=" alt="Goa">
+            <p>Goa, a vibrant destination in India, is famous for its stunning beaches, rich history, and lively nightlife.</p>
+            <h3>Best Seasons to Visit:</h3>
+            <ul>
+                <li><strong>Winter (November to February):</strong> Ideal for beach activities and exploring with pleasant temperatures.</li>
+                <li><strong>Monsoon (June to September):</strong> Experience lush green landscapes, though beach activities are limited.</li>
+            </ul>
+            <h3>Main Attractions:</h3>
+            <ul>
+                <li><strong>Calangute Beach:</strong> One of Goa’s largest beaches, offering a lively atmosphere with plenty of activities.</li>
+                <li><strong>Arambol Beach:</strong> A lesser-known beach with a relaxed, Bohemian vibe, popular with backpackers.</li>
+                <li><strong>Fort Aguada:</strong> A 17th-century Portuguese fort with stunning views of the Arabian Sea.</li>
+                <li><strong>Dudhsagar Waterfalls:</strong> One of India’s tallest waterfalls, best visited during the monsoon.</li>
+            </ul>
+        </div>
+
+        <!-- Taj Mahal Section -->
+        <div class="place">
+            <h2>Taj Mahal</h2>
+            <img src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=" alt="Taj Mahal">
+            <p>The Taj Mahal, a timeless symbol of love, is an architectural masterpiece in white marble, located in Agra, India.</p>
+            <h3>Best Seasons to Visit:</h3>
+            <ul>
+                <li><strong>October to March:</strong> Ideal for sightseeing with cooler, more pleasant weather.</li>
+            </ul>
+            <h3>Main Attractions:</h3>
+            <ul>
+                <li><strong>Main Entrance:</strong> The iconic view of the Taj Mahal framed by the grand entrance arch.</li>
+                <li><strong>Mehtab Bagh:</strong> Offers a serene, less crowded view of the Taj Mahal, especially beautiful at sunset.</li>
+                <li><strong>Agra Fort:</strong> Provides a poignant view of the Taj Mahal, where Shah Jahan spent his last years.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Designed By Vinee
+    </footer>
+</body>
+</html>
